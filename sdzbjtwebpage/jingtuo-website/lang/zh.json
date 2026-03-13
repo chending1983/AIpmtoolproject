@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "title": "山东晶拓新材料科技有限公司 | 优质氧化铝制造商和供应商",
+    "description": "拟薄水铝石、微晶氧化铝、氧化铝载体和氧化铝微球的领先制造商和供应商。ISO认证品质，服务全球工业。",
+    "keywords": "拟薄水铝石, 微晶氧化铝, 氧化铝载体, 氧化铝微球, 氧化铝产品, 氧化铝制造商, 氧化铝供应商"
+  },
+  "og": {
+    "title": "山东晶拓新材料科技有限公司 | 优质氧化铝制造商和供应商",
+    "description": "拟薄水铝石、微晶氧化铝、氧化铝载体和氧化铝微球的领先制造商和供应商。"
+  },
+  "twitter": {
+    "title": "山东晶拓新材料科技有限公司 | 优质氧化铝制造商和供应商",
+    "description": "拟薄水铝石、微晶氧化铝、氧化铝载体和氧化铝微球的领先制造商和供应商。"
+  },
+  "accessibility": {
+    "skipToContent": "跳转到主要内容"
+  },
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "products": "产品中心",
+    "applications": "应用领域",
+    "news": "新闻资讯",
+    "contact": "联系我们"
+  },
+  "hero": {
+    "title": "全球工业的顶级氧化铝产品",
+    "subtitle": "拟薄水铝石、微晶氧化铝、氧化铝载体和微球的领先制造商。ISO认证品质，获得全球财富500强企业的信赖。",
+    "ctaPrimary": "探索产品",
+    "ctaSecondary": "获取报价"
+  },
+  "stats": {
+    "years": "年行业经验",
+    "countries": "出口国家",
+    "partners": "合作伙伴",
+    "tons": "年产能吨数"
+  },
+  "products": {
+    "title": "我们的产品",
+    "subtitle": "适用于各种工业应用的高品质氧化铝产品",
+    "learnMore": "了解更多 →",
+    "pseudoboehmite": {
+      "name": "拟薄水铝石",
+      "description": "用于催化剂载体和吸附剂应用的高纯度拟薄水铝石。具有优异的热稳定性和比表面积。"
+    },
+    "microcrystallineAlumina": {
+      "name": "微晶氧化铝",
+      "description": "用于陶瓷和耐火材料应用的细晶微晶氧化铝。具有卓越的硬度和耐磨性。"
+    },
+    "aluminaCarrier": {
+      "name": "氧化铝载体",
+      "description": "用于催化剂应用的专业氧化铝载体。可定制的孔隙结构和表面特性。"
+    },
+    "aluminaMicrospheres": {
+      "name": "氧化铝微球",
+      "description": "用于流化催化裂化和石化应用的精密氧化铝微球。均匀的粒径分布。"
+    }
+  },
+  "applications": {
+    "title": "行业应用",
+    "subtitle": "我们的产品服务于全球各个行业",
+    "petrochemical": {
+      "title": "石油化工",
+      "description": "用于石油炼制和石化工艺的催化剂载体和吸附剂。"
+    },
+    "ceramic": {
+      "title": "陶瓷行业",
+      "description": "用于先进陶瓷和耐火材料应用的高性能材料。"
+    },
+    "environmental": {
+      "title": "环保领域",
+      "description": "用于空气和水净化系统的吸附材料。"
+    },
+    "automotive": {
+      "title": "汽车工业",
+      "description": "用于汽车排放控制系统的催化剂载体。"
+    }
+  },
+  "whyUs": {
+    "title": "为什么选择晶拓",
+    "quality": {
+      "title": "质量保证",
+      "description": "ISO 9001:2015认证，严格的质量控制流程。每批产品都经过测试和认证。"
+    },
+    "innovation": {
+      "title": "研发卓越",
+      "description": "拥有先进实验室设施的专业研发团队。持续的产品创新。"
+    },
+    "global": {
+      "title": "全球覆盖",
+      "description": "出口到100多个国家，拥有完善的物流网络和仓储设施。"
+    },
+    "service": {
+      "title": "客户服务",
+      "description": "24/7客户支持，配备专属客户经理。提供技术咨询服务。"
+    }
+  },
+  "cta": {
+    "title": "准备开始了吗？",
+    "description": "今天就联系我们进行产品咨询、技术规格查询或获取报价。我们的团队随时准备为您提供帮助。",
+    "contact": "联系我们",
+    "quote": "获取报价"
+  },
+  "footer": {
+    "company": {
+      "title": "公司",
+      "about": "关于我们",
+      "history": "发展历程",
+      "certifications": "资质认证",
+      "facilities": "生产设施"
+    },
+    "products": {
+      "title": "产品"
+    },
+    "resources": {
+      "title": "资源",
+      "news": "新闻动态",
+      "articles": "技术文章",
+      "downloads": "资料下载",
+      "faq": "常见问题"
+    },
+    "contact": {
+      "title": "联系我们",
+      "address": "中国山东省"
+    },
+    "rights": "版权所有。",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "sitemap": "网站地图"
+  }
+}

@@ -1,0 +1,55 @@
+# robots.txt for Shandong Jingtuo New Materials Technology Co., Ltd. Website
+# https://www.jingtuomaterials.com/robots.txt
+
+# Allow all search engines
+User-agent: *
+
+# Allow crawling of all content
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.jingtuomaterials.com/sitemap.xml
+
+# Crawl-delay to prevent server overload
+Crawl-delay: 1
+
+# Disallow specific paths (if needed in the future)
+# Disallow: /admin/
+# Disallow: /private/
+# Disallow: /temp/
+
+# Allow specific file types
+Allow: /*.js$
+Allow: /*.css$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.gif$
+Allow: /*.svg$
+Allow: /*.pdf$
+
+# Block specific user agents (known bad bots)
+User-agent: BadBot
+Disallow: /
+
+User-agent: SpamBot
+Disallow: /
+
+# Google specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0.5
+
+# Bing specific
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 0.5
+
+# Baidu specific
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+# Yandex specific
+User-agent: Yandex
+Allow: /
+Crawl-delay: 1

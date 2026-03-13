@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "title": "Shandong Jingtuo New Materials Technology Co., Ltd. | Premium Alumina Manufacturer & Supplier",
+    "description": "Leading manufacturer and supplier of pseudoboehmite, microcrystalline alumina, alumina carrier and alumina microspheres. ISO certified quality for global industries.",
+    "keywords": "pseudoboehmite, microcrystalline alumina, alumina carrier, alumina microspheres, alumina products, alumina manufacturer, alumina supplier china"
+  },
+  "og": {
+    "title": "Shandong Jingtuo New Materials Technology Co., Ltd. | Premium Alumina Manufacturer & Supplier",
+    "description": "Leading manufacturer and supplier of pseudoboehmite, microcrystalline alumina, alumina carrier and alumina microspheres."
+  },
+  "twitter": {
+    "title": "Shandong Jingtuo New Materials Technology Co., Ltd. | Premium Alumina Manufacturer & Supplier",
+    "description": "Leading manufacturer and supplier of pseudoboehmite, microcrystalline alumina, alumina carrier and alumina microspheres."
+  },
+  "accessibility": {
+    "skipToContent": "Skip to main content"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "products": "Products",
+    "applications": "Applications",
+    "news": "News",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Premium Alumina Products for Global Industries",
+    "subtitle": "Leading manufacturer of pseudoboehmite, microcrystalline alumina, alumina carrier and microspheres. ISO certified quality, trusted by Fortune 500 companies worldwide.",
+    "ctaPrimary": "Explore Products",
+    "ctaSecondary": "Request Quote"
+  },
+  "stats": {
+    "years": "Years Experience",
+    "countries": "Export Countries",
+    "partners": "Partner Companies",
+    "tons": "Tons Annual Capacity"
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "High-quality alumina products for various industrial applications",
+    "learnMore": "Learn More →",
+    "pseudoboehmite": {
+      "name": "Pseudoboehmite",
+      "description": "High-purity pseudoboehmite for catalyst support and adsorbent applications. Excellent thermal stability and surface area."
+    },
+    "microcrystallineAlumina": {
+      "name": "Microcrystalline Alumina",
+      "description": "Fine-grained microcrystalline alumina for ceramic and refractory applications. Superior hardness and wear resistance."
+    },
+    "aluminaCarrier": {
+      "name": "Alumina Carrier",
+      "description": "Specialized alumina carriers for catalyst applications. Customizable pore structure and surface properties."
+    },
+    "aluminaMicrospheres": {
+      "name": "Alumina Microspheres",
+      "description": "Precision alumina microspheres for fluid catalytic cracking and petrochemical applications. Uniform particle size distribution."
+    }
+  },
+  "applications": {
+    "title": "Industry Applications",
+    "subtitle": "Our products serve diverse industries worldwide",
+    "petrochemical": {
+      "title": "Petrochemical",
+      "description": "Catalyst supports and adsorbents for oil refining and petrochemical processes."
+    },
+    "ceramic": {
+      "title": "Ceramics",
+      "description": "High-performance materials for advanced ceramic and refractory applications."
+    },
+    "environmental": {
+      "title": "Environmental",
+      "description": "Adsorption materials for air and water purification systems."
+    },
+    "automotive": {
+      "title": "Automotive",
+      "description": "Catalyst carriers for automotive emission control systems."
+    }
+  },
+  "whyUs": {
+    "title": "Why Choose Jingtuo",
+    "quality": {
+      "title": "Quality Assurance",
+      "description": "ISO 9001:2015 certified with strict quality control processes. Every batch tested and certified."
+    },
+    "innovation": {
+      "title": "R&D Excellence",
+      "description": "Dedicated research team with state-of-the-art laboratory facilities. Continuous product innovation."
+    },
+    "global": {
+      "title": "Global Reach",
+      "description": "Exporting to 100+ countries with established logistics networks and warehousing facilities."
+    },
+    "service": {
+      "title": "Customer Service",
+      "description": "24/7 customer support with dedicated account managers. Technical consultation available."
+    }
+  },
+  "cta": {
+    "title": "Ready to Get Started?",
+    "description": "Contact us today for product inquiries, technical specifications, or to request a quote. Our team is ready to assist you.",
+    "contact": "Contact Us",
+    "quote": "Request Quote"
+  },
+  "footer": {
+    "company": {
+      "title": "Company",
+      "about": "About Us",
+      "history": "Our History",
+      "certifications": "Certifications",
+      "facilities": "Our Facilities"
+    },
+    "products": {
+      "title": "Products"
+    },
+    "resources": {
+      "title": "Resources",
+      "news": "News & Updates",
+      "articles": "Technical Articles",
+      "downloads": "Downloads",
+      "faq": "FAQ"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "address": "Shandong Province, China"
+    },
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "sitemap": "Sitemap"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "products": [
+    {
+      "id": "pseudoboehmite",
+      "slug": "pseudoboehmite",
+      "name": {
+        "en": "Pseudoboehmite",
+        "zh": "拟薄水铝石",
+        "es": "Pseudo-Boehmita"
+      },
+      "shortDescription": {
+        "en": "High-purity pseudoboehmite for catalyst support and adsorbent applications. Excellent thermal stability and surface area.",
+        "zh": "用于催化剂载体和吸附剂应用的高纯度拟薄水铝石。具有优异的热稳定性和比表面积。",
+        "es": "Pseudo-boehmita de alta pureza para aplicaciones de soporte catalítico y adsorbente. Excelente estabilidad térmica y área superficial."
+      },
+      "fullDescription": {
+        "en": "Our pseudoboehmite products are manufactured using advanced production technology to ensure high purity and consistent quality. These materials are ideal for catalyst support, adsorbent applications, and various industrial processes requiring high surface area materials.",
+        "zh": "我们的拟薄水铝石产品采用先进的生产技术制造，确保高纯度和稳定的质量。这些材料非常适合催化剂载体、吸附剂应用以及各种需要高比表面积材料的工业过程。",
+        "es": "Nuestros productos de pseudo-boehmita se fabrican utilizando tecnología de producción avanzada para garantizar alta pureza y calidad consistente. Estos materiales son ideales para soporte catalítico, aplicaciones de adsorbente y varios procesos industriales que requieren materiales de alta área superficial."
+      },
+      "specifications": {
+        "chemicalComposition": {
+          "Al2O3": ">65%",
+          "Na2O": "<0.05%",
+          "Fe2O3": "<0.03%",
+          "SiO2": "<0.05%"
+        },
+        "physicalProperties": {
+          "surfaceArea": "200-400 m²/g",
+          "poreVolume": "0.3-0.8 cm³/g",
+          "particleSize": "10-100 μm",
+          "bulkDensity": "0.4-0.8 g/cm³"
+        }
+      },
+      "applications": [
+        "Catalyst support",
+        "Adsorbent materials",
+        "Petrochemical processing",
+        "Environmental protection"
+      ],
+      "images": {
+        "main": "images/products/pseudoboehmite.jpg",
+        "gallery": [
+          "images/products/pseudoboehmite-1.jpg",
+          "images/products/pseudoboehmite-2.jpg"
+        ]
+      },
+      "certifications": ["ISO 9001:2015", "SGS Certified"],
+      "seo": {
+        "title": "Pseudoboehmite | High Purity Alumina Products | Jingtuo",
+        "description": "Premium pseudoboehmite for catalyst support and adsorbent applications. ISO certified manufacturer with 20+ years experience.",
+        "keywords": "pseudoboehmite, alumina catalyst support, adsorbent materials, high purity alumina"
+      }
+    },
+    {
+      "id": "microcrystalline-alumina",
+      "slug": "microcrystalline-alumina",
+      "name": {
+        "en": "Microcrystalline Alumina",
+        "zh": "微晶氧化铝",
+        "es": "Alúmina Microcristalina"
+      },
+      "shortDescription": {
+        "en": "Fine-grained microcrystalline alumina for ceramic and refractory applications. Superior hardness and wear resistance.",
+        "zh": "用于陶瓷和耐火材料应用的细晶微晶氧化铝。具有卓越的硬度和耐磨性。",
+        "es": "Alúmina microcristalina de grano fino para aplicaciones cerámicas y refractarias. Dureza y resistencia al desgaste superiores."
+      },
+      "fullDescription": {
+        "en": "Our microcrystalline alumina products feature exceptional hardness, wear resistance, and thermal stability. These materials are perfect for advanced ceramics, refractory applications, and industrial wear parts.",
+        "zh": "我们的微晶氧化铝产品具有卓越的硬度、耐磨性和热稳定性。这些材料非常适合先进陶瓷、耐火材料应用和工业耐磨零件。",
+        "es": "Nuestros productos de alúmina microcristalina presentan dureza excepcional, resistencia al desgaste y estabilidad térmica. Estos materiales son perfectos para cerámica avanzada, aplicaciones refractarias y piezas de desgaste industrial."
+      },
+      "specifications": {
+        "chemicalComposition": {
+          "Al2O3": ">99%",
+          "Na2O": "<0.1%",
+          "Fe2O3": "<0.05%",
+          "SiO2": "<0.1%"
+        },
+        "physicalProperties": {
+          "hardness": "9 Mohs",
+          "density": "3.9-4.0 g/cm³",
+          "particleSize": "0.5-50 μm",
+          "compressiveStrength": ">2000 MPa"
+        }
+      },
+      "applications": [
+        "Advanced ceramics",
+        "Refractory materials",
+        "Wear-resistant parts",
+        "Polishing materials"
+      ],
+      "images": {
+        "main": "images/products/microcrystalline-alumina.jpg",
+        "gallery": [
+          "images/products/microcrystalline-alumina-1.jpg",
+          "images/products/microcrystalline-alumina-2.jpg"
+        ]
+      },
+      "certifications": ["ISO 9001:2015", "ISO 14001:2015"],
+      "seo": {
+        "title": "Microcrystalline Alumina | High Purity Ceramic Materials | Jingtuo",
+        "description": "Premium microcrystalline alumina for ceramic and refractory applications. Superior hardness and wear resistance.",
+        "keywords": "microcrystalline alumina, ceramic materials, refractory alumina, wear resistant materials"
+      }
+    },
+    {
+      "id": "alumina-carrier",
+      "slug": "alumina-carrier",
+      "name": {
+        "en": "Alumina Carrier",
+        "zh": "氧化铝载体",
+        "es": "Portador de Alúmina"
+      },
+      "shortDescription": {
+        "en": "Specialized alumina carriers for catalyst applications. Customizable pore structure and surface properties.",
+        "zh": "用于催化剂应用的专业氧化铝载体。可定制的孔隙结构和表面特性。",
+        "es": "Portadores de alúmina especializados para aplicaciones catalíticas. Estructura de poros y propiedades de superficie personalizables."
+      },
+      "fullDescription": {
+        "en": "Our alumina carriers are engineered to provide optimal catalyst support with customizable pore structures, surface areas, and mechanical properties. Ideal for various catalytic processes in petrochemical and environmental applications.",
+        "zh": "我们的氧化铝载体经过精心设计，通过可定制的孔隙结构、比表面积和机械性能提供最佳的催化剂支撑。非常适合石化和环保应用中的各种催化过程。",
+        "es": "Nuestros portadores de alúmina están diseñados para proporcionar soporte catalítico óptimo con estructuras de poros personalizables, áreas superficiales y propiedades mecánicas. Ideal para varios procesos catalíticos en aplicaciones petroquímicas y ambientales."
+      },
+      "specifications": {
+        "chemicalComposition": {
+          "Al2O3": ">92%",
+          "Na2O": "<0.3%",
+          "Fe2O3": "<0.05%",
+          "SiO2": "<0.1%"
+        },
+        "physicalProperties": {
+          "surfaceArea": "50-300 m²/g",
+          "poreVolume": "0.3-1.0 cm³/g",
+          "crushStrength": ">50 N/piece",
+          "bulkDensity": "0.5-0.9 g/cm³"
+        }
+      },
+      "applications": [
+        "Catalyst support",
+        "Petrochemical processing",
+        "Automotive catalysts",
+        "Environmental catalysts"
+      ],
+      "images": {
+        "main": "images/products/alumina-carrier.jpg",
+        "gallery": [
+          "images/products/alumina-carrier-1.jpg",
+          "images/products/alumina-carrier-2.jpg"
+        ]
+      },
+      "certifications": ["ISO 9001:2015", "Automotive Certification"],
+      "seo": {
+        "title": "Alumina Carrier | Catalyst Support Materials | Jingtuo",
+        "description": "Specialized alumina carriers for catalyst applications. Customizable pore structure and surface properties.",
+        "keywords": "alumina carrier, catalyst support, petrochemical catalyst, automotive catalyst"
+      }
+    },
+    {
+      "id": "alumina-microspheres",
+      "slug": "alumina-microspheres",
+      "name": {
+        "en": "Alumina Microspheres",
+        "zh": "氧化铝微球",
+        "es": "Microesferas de Alúmina"
+      },
+      "shortDescription": {
+        "en": "Precision alumina microspheres for fluid catalytic cracking and petrochemical applications. Uniform particle size distribution.",
+        "zh": "用于流化催化裂化和石化应用的精密氧化铝微球。均匀的粒径分布。",
+        "es": "Microesferas de alúmina de precisión para aplicaciones de craqueo catalítico fluido y petroquímicas. Distribución uniforme de tamaño de partículas."
+      },
+      "fullDescription": {
+        "en": "Our alumina microspheres are manufactured with precise control over particle size distribution, ensuring optimal performance in fluid catalytic cracking (FCC) and other petrochemical processes. Excellent fluidization properties and thermal stability.",
+        "zh": "我们的氧化铝微球通过精确控制粒径分布制造，确保在流化催化裂化（FCC）和其他石化过程中实现最佳性能。具有优异的流化性能和热稳定性。",
+        "es": "Nuestras microesferas de alúmina se fabrican con control preciso sobre la distribución del tamaño de partículas, asegurando un rendimiento óptimo en craqueo catalítico fluido (FCC) y otros procesos petroquímicos. Excelentes propiedades de fluidización y estabilidad térmica."
+      },
+      "specifications": {
+        "chemicalComposition": {
+          "Al2O3": ">90%",
+          "Na2O": "<0.4%",
+          "Fe2O3": "<0.1%",
+          "SiO2": "<0.5%"
+        },
+        "physicalProperties": {
+          "particleSize": "20-150 μm",
+          "sphericity": ">0.9",
+          "bulkDensity": "0.7-1.0 g/cm³",
+          "attritionIndex": "<3%"
+        }
+      },
+      "applications": [
+        "Fluid catalytic cracking",
+        "Petrochemical processing",
+        "Catalyst support",
+        "Adsorption processes"
+      ],
+      "images": {
+        "main": "images/products/alumina-microspheres.jpg",
+        "gallery": [
+          "images/products/alumina-microspheres-1.jpg",
+          "images/products/alumina-microspheres-2.jpg"
+        ]
+      },
+      "certifications": ["ISO 9001:2015", "API Certification"],
+      "seo": {
+        "title": "Alumina Microspheres | FCC Catalyst Materials | Jingtuo",
+        "description": "Precision alumina microspheres for fluid catalytic cracking. Uniform particle size distribution and excellent fluidization.",
+        "keywords": "alumina microspheres, FCC catalyst, fluid catalytic cracking, petrochemical microspheres"
+      }
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "title": "Productos de Alúmina Jingtuo | Fabricante y Proveedor Premium de Alúmina",
+    "description": "Fabricante y proveedor líder de pseudo-boehmita, alúmina microcristalina, portador de alúmina y microesferas de alúmina. Calidad certificada ISO para industrias globales.",
+    "keywords": "pseudo-boehmita, alúmina microcristalina, portador de alúmina, microesferas de alúmina, productos de alúmina, fabricante de alúmina, proveedor de alúmina china"
+  },
+  "og": {
+    "title": "Productos de Alúmina Jingtuo | Fabricante y Proveedor Premium de Alúmina",
+    "description": "Fabricante y proveedor líder de pseudo-boehmita, alúmina microcristalina, portador de alúmina y microesferas de alúmina."
+  },
+  "twitter": {
+    "title": "Productos de Alúmina Jingtuo | Fabricante y Proveedor Premium de Alúmina",
+    "description": "Fabricante y proveedor líder de pseudo-boehmita, alúmina microcristalina, portador de alúmina y microesferas de alúmina."
+  },
+  "accessibility": {
+    "skipToContent": "Saltar al contenido principal"
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "products": "Productos",
+    "applications": "Aplicaciones",
+    "news": "Noticias",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Productos Premium de Alúmina para Industrias Globales",
+    "subtitle": "Fabricante líder de pseudo-boehmita, alúmina microcristalina, portador de alúmina y microesferas. Calidad certificada ISO, confiada por empresas Fortune 500 en todo el mundo.",
+    "ctaPrimary": "Explorar Productos",
+    "ctaSecondary": "Solicitar Cotización"
+  },
+  "stats": {
+    "years": "Años de Experiencia",
+    "countries": "Países Exportadores",
+    "partners": "Empresas Asociadas",
+    "tons": "Capacidad Anual en Toneladas"
+  },
+  "products": {
+    "title": "Nuestros Productos",
+    "subtitle": "Productos de alúmina de alta calidad para diversas aplicaciones industriales",
+    "learnMore": "Más Información →",
+    "pseudoboehmite": {
+      "name": "Pseudo-Boehmita",
+      "description": "Pseudo-boehmita de alta pureza para aplicaciones de soporte catalítico y adsorbente. Excelente estabilidad térmica y área superficial."
+    },
+    "microcrystallineAlumina": {
+      "name": "Alúmina Microcristalina",
+      "description": "Alúmina microcristalina de grano fino para aplicaciones cerámicas y refractarias. Dureza y resistencia al desgaste superiores."
+    },
+    "aluminaCarrier": {
+      "name": "Portador de Alúmina",
+      "description": "Portadores de alúmina especializados para aplicaciones catalíticas. Estructura de poros y propiedades de superficie personalizables."
+    },
+    "aluminaMicrospheres": {
+      "name": "Microesferas de Alúmina",
+      "description": "Microesferas de alúmina de precisión para aplicaciones de craqueo catalítico fluido y petroquímicas. Distribución uniforme de tamaño de partículas."
+    }
+  },
+  "applications": {
+    "title": "Aplicaciones Industriales",
+    "subtitle": "Nuestros productos sirven a diversas industrias en todo el mundo",
+    "petrochemical": {
+      "title": "Petroquímica",
+      "description": "Soportes catalíticos y adsorbentes para procesos de refinación de petróleo y petroquímicos."
+    },
+    "ceramic": {
+      "title": "Cerámica",
+      "description": "Materiales de alto rendimiento para aplicaciones cerámicas avanzadas y refractarias."
+    },
+    "environmental": {
+      "title": "Medio Ambiente",
+      "description": "Materiales de adsorción para sistemas de purificación de aire y agua."
+    },
+    "automotive": {
+      "title": "Automotriz",
+      "description": "Portadores catalíticos para sistemas de control de emisiones automotrices."
+    }
+  },
+  "whyUs": {
+    "title": "Por Qué Elegir Jingtuo",
+    "quality": {
+      "title": "Garantía de Calidad",
+      "description": "Certificado ISO 9001:2015 con estrictos procesos de control de calidad. Cada lote probado y certificado."
+    },
+    "innovation": {
+      "title": "Excelencia en I+D",
+      "description": "Equipo de investigación dedicado con instalaciones de laboratorio de última generación. Innovación continua de productos."
+    },
+    "global": {
+      "title": "Alcance Global",
+      "description": "Exportando a más de 100 países con redes logísticas establecidas e instalaciones de almacenamiento."
+    },
+    "service": {
+      "title": "Servicio al Cliente",
+      "description": "Soporte al cliente 24/7 con gerentes de cuenta dedicados. Consultoría técnica disponible."
+    }
+  },
+  "cta": {
+    "title": "¿Listo para Comenzar?",
+    "description": "Contáctenos hoy para consultas de productos, especificaciones técnicas o para solicitar una cotización. Nuestro equipo está listo para ayudarle.",
+    "contact": "Contáctenos",
+    "quote": "Solicitar Cotización"
+  },
+  "footer": {
+    "company": {
+      "title": "Empresa",
+      "about": "Nosotros",
+      "history": "Nuestra Historia",
+      "certifications": "Certificaciones",
+      "facilities": "Nuestras Instalaciones"
+    },
+    "products": {
+      "title": "Productos"
+    },
+    "resources": {
+      "title": "Recursos",
+      "news": "Noticias y Actualizaciones",
+      "articles": "Artículos Técnicos",
+      "downloads": "Descargas",
+      "faq": "Preguntas Frecuentes"
+    },
+    "contact": {
+      "title": "Contáctenos",
+      "address": "Provincia de Shandong, China"
+    },
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "sitemap": "Mapa del Sitio"
+  }
+}

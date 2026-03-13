@@ -1,0 +1,428 @@
+<!-- 
+  Footer Component - Jingtuo Alumina Website
+  可复用的网站底部组件
+  
+  使用说明：
+  1. 在页面中插入 <div id="footer-container"></div>
+  2. 引入组件加载器: <script src="js/component-loader.js"></script>
+  3. 组件会自动加载并注入到容器中
+  
+  配置选项（通过 data-* 属性）：
+  - data-show-social: 是否显示社交媒体链接 (true/false)
+  - data-custom-class: 自定义CSS类名
+-->
+
+<template id="footer-template">
+    <footer class="footer footer-enhanced" role="contentinfo" id="main-footer">
+        <div class="container">
+            <!-- 主要内容区 -->
+            <div class="footer-grid footer-grid-enhanced">
+                <!-- 公司信息 -->
+                <div class="footer-section footer-section-enhanced">
+                    <h3 data-i18n="footer.company">公司介绍</h3>
+                    <ul>
+                        <li><a href="./about.html" data-i18n="footer.about">关于我们</a></li>
+                        <li><a href="./history.html" data-i18n="footer.history">发展历程</a></li>
+                        <li><a href="./certifications.html" data-i18n="footer.certifications">资质认证</a></li>
+                        <li><a href="./facilities.html" data-i18n="footer.facilities">生产设施</a></li>
+                    </ul>
+                </div>
+                
+                <!-- 产品中心 -->
+                <div class="footer-section footer-section-enhanced">
+                    <h3 data-i18n="footer.products">产品中心</h3>
+                    <ul>
+                        <li><a href="./products/pseudoboehmite.html" data-i18n="products.pseudoboehmite.name">拟薄水铝石</a></li>
+                        <li><a href="./products/microcrystalline-alumina.html" data-i18n="products.microcrystallineAlumina.name">微晶氧化铝</a></li>
+                        <li><a href="./products/alumina-carrier.html" data-i18n="products.aluminaCarrier.name">氧化铝载体</a></li>
+                        <li><a href="./products/alumina-microspheres.html" data-i18n="products.aluminaMicrospheres.name">氧化铝微球</a></li>
+                    </ul>
+                </div>
+                
+                <!-- 资源中心 -->
+                <div class="footer-section footer-section-enhanced">
+                    <h3 data-i18n="footer.resources">资源中心</h3>
+                    <ul>
+                        <li><a href="./news.html" data-i18n="footer.news">新闻动态</a></li>
+                        <li><a href="./technical-articles.html" data-i18n="footer.articles">技术文章</a></li>
+                        <li><a href="./downloads.html" data-i18n="footer.downloads">资料下载</a></li>
+                        <li><a href="./faq.html" data-i18n="footer.faq">常见问题</a></li>
+                    </ul>
+                </div>
+                
+                <!-- 联系我们 -->
+                <div class="footer-section footer-section-enhanced footer-contact">
+                    <h3 data-i18n="footer.contact">联系我们</h3>
+                    <address class="footer-address">
+                        <p class="footer-location">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                <circle cx="12" cy="10" r="3"></circle>
+                            </svg>
+                            <span>中国山东省</span>
+                        </p>
+                        <p class="footer-email">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            <a href="mailto:info@jingtuomaterials.com">info@jingtuomaterials.com</a>
+                        </p>
+                        <p class="footer-phone">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                            </svg>
+                            <a href="tel:+8612345678900">+86 123 4567 8900</a>
+                        </p>
+                    </address>
+                    
+                    <!-- 社交媒体链接 -->
+                    <div class="social-links social-links-enhanced" data-social-section>
+                        <a href="https://linkedin.com/company/jingtuo-alumina" 
+                           aria-label="LinkedIn" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com/jingtuoalumina" 
+                           aria-label="Twitter" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                            </svg>
+                        </a>
+                        <a href="https://weixin.qq.com/jingtuo-alumina" 
+                           aria-label="WeChat" 
+                           target="_blank" 
+                           rel="noopener noreferrer"
+                           class="social-link">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M8.691 2.188C3.891 2.188 0 5.476 0 9.53c0 2.212 1.17 4.203 3.002 5.55a.59.59 0 0 1 .213.665l-.39 1.48c-.019.07-.048.141-.048.213 0 .163.13.295.29.295a.326.326 0 0 0 .167-.054l1.903-1.114a.864.864 0 0 1 .717-.098 10.16 10.16 0 0 0 2.837.403c.276 0 .543-.027.811-.05-.857-2.578.157-4.972 1.932-6.446 1.703-1.415 3.882-1.98 5.853-1.838-.576-3.583-4.196-6.348-8.596-6.348zM5.785 5.991c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 0 1-1.162 1.178A1.17 1.17 0 0 1 4.623 7.17c0-.651.52-1.18 1.162-1.18zm5.813 0c.642 0 1.162.529 1.162 1.18a1.17 1.17 0 0 1-1.162 1.178 1.17 1.17 0 0 1-1.162-1.178c0-.651.52-1.18 1.162-1.18zm5.34 2.867c-1.797-.052-3.746.512-5.28 1.786-1.72 1.428-2.687 3.72-1.78 6.22.942 2.453 3.666 4.229 6.884 4.229.826 0 1.622-.12 2.361-.336a.722.722 0 0 1 .598.082l1.584.926a.272.272 0 0 0 .14.047c.134 0 .24-.111.24-.247 0-.06-.023-.12-.038-.177l-.327-1.233a.582.582 0 0 1-.023-.156.49.49 0 0 1 .201-.398C23.024 18.48 24 16.82 24 14.98c0-3.21-2.931-5.837-6.656-6.088V8.89c-.135-.01-.27-.027-.407-.03zm-2.53 3.274c.535 0 .969.44.969.982a.976.976 0 0 1-.969.983.976.976 0 0 1-.969-.983c0-.542.434-.982.97-.982zm4.844 0c.535 0 .969.44.969.982a.976.976 0 0 1-.969.983.976.976 0 0 1-.969-.983c0-.542.434-.982.969-.982z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 分隔线 -->
+            <div class="footer-divider"></div>
+            
+            <!-- 底部版权区 -->
+            <div class="footer-bottom footer-bottom-enhanced">
+                <p class="footer-copyright">
+                    &copy; <span id="current-year">2024</span> 
+                    <span data-i18n="footer.companyName">山东晶拓新材料科技有限公司</span>. 
+                    <span data-i18n="footer.rights">版权所有。</span>
+                </p>
+                <div class="footer-legal footer-legal-enhanced">
+                    <a href="./privacy-policy.html" data-i18n="footer.privacy">隐私政策</a>
+                    <span class="footer-separator">|</span>
+                    <a href="./terms-of-service.html" data-i18n="footer.terms">服务条款</a>
+                    <span class="footer-separator">|</span>
+                    <a href="./sitemap.html" data-i18n="footer.sitemap">网站地图</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</template>
+
+<script>
+/**
+ * Footer Component Logic
+ * 底部组件的交互逻辑
+ */
+(function() {
+    'use strict';
+    
+    class FooterComponent {
+        constructor(container) {
+            this.container = container;
+            this.footer = null;
+            this.showSocial = true;
+            
+            this.init();
+        }
+        
+        init() {
+            this.render();
+            this.bindEvents();
+            this.updateYear();
+        }
+        
+        render() {
+            const template = document.getElementById('footer-template');
+            if (!template) return;
+            
+            const content = template.content.cloneNode(true);
+            this.container.appendChild(content);
+            this.footer = this.container.querySelector('#main-footer');
+            
+            // 读取配置
+            this.showSocial = this.container.dataset.showSocial !== 'false';
+            const customClass = this.container.dataset.customClass;
+            
+            // 应用自定义类
+            if (customClass && this.footer) {
+                this.footer.classList.add(customClass);
+            }
+            
+            // 控制社交媒体显示
+            if (!this.showSocial) {
+                const socialSection = this.container.querySelector('[data-social-section]');
+                if (socialSection) socialSection.style.display = 'none';
+            }
+        }
+        
+        bindEvents() {
+            // 链接点击事件
+            this.container.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', (e) => {
+                    const href = link.getAttribute('href');
+                    if (href && !href.startsWith('#')) {
+                        this.emit('linkClick', { 
+                            href: href,
+                            text: link.textContent.trim()
+                        });
+                    }
+                });
+            });
+            
+            // 社交媒体链接点击
+            this.container.querySelectorAll('.social-link').forEach(link => {
+                link.addEventListener('click', (e) => {
+                    const platform = link.getAttribute('aria-label');
+                    this.emit('socialClick', { platform });
+                });
+            });
+        }
+        
+        updateYear() {
+            const yearSpan = this.container.querySelector('#current-year');
+            if (yearSpan) {
+                yearSpan.textContent = new Date().getFullYear();
+            }
+        }
+        
+        emit(eventName, data) {
+            const event = new CustomEvent(`footer:${eventName}`, {
+                detail: data,
+                bubbles: true
+            });
+            this.container.dispatchEvent(event);
+        }
+        
+        // 公共API
+        setSocialVisible(visible) {
+            const socialSection = this.container.querySelector('[data-social-section]');
+            if (socialSection) {
+                socialSection.style.display = visible ? 'flex' : 'none';
+            }
+        }
+        
+        updateCopyright(year, company) {
+            const yearSpan = this.container.querySelector('#current-year');
+            const companySpan = this.container.querySelector('[data-i18n="footer.companyName"]');
+            
+            if (yearSpan) yearSpan.textContent = year;
+            if (companySpan && company) companySpan.textContent = company;
+        }
+    }
+    
+    window.FooterComponent = FooterComponent;
+})();
+</script>
+
+<style>
+/* Footer 组件增强样式 */
+.footer-enhanced {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    color: #f8fafc;
+    padding: 80px 0 40px;
+    position: relative;
+}
+
+.footer-enhanced::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #2d5a87, #3d7ab5, #2d5a87);
+}
+
+.footer-grid-enhanced {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.footer-section-enhanced h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 24px;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+.footer-section-enhanced h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 3px;
+    background: linear-gradient(90deg, #2d5a87, #3d7ab5);
+    border-radius: 2px;
+}
+
+.footer-section-enhanced ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section-enhanced li {
+    margin-bottom: 12px;
+}
+
+.footer-section-enhanced a {
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+}
+
+.footer-section-enhanced a:hover {
+    color: #fff;
+    transform: translateX(4px);
+}
+
+.footer-address {
+    font-style: normal;
+}
+
+.footer-address p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+.footer-address svg {
+    flex-shrink: 0;
+    color: #3d7ab5;
+}
+
+.footer-address a {
+    color: #94a3b8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-address a:hover {
+    color: #fff;
+}
+
+.social-links-enhanced {
+    display: flex;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.social-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    color: #94a3b8;
+}
+
+.social-link:hover {
+    background: linear-gradient(135deg, #2d5a87, #3d7ab5);
+    color: #fff;
+    transform: translateY(-3px);
+}
+
+.footer-divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+    margin-bottom: 30px;
+}
+
+.footer-bottom-enhanced {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-copyright {
+    color: #64748b;
+    font-size: 14px;
+    margin: 0;
+}
+
+.footer-legal-enhanced {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.footer-legal-enhanced a {
+    color: #94a3b8;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-legal-enhanced a:hover {
+    color: #fff;
+}
+
+.footer-separator {
+    color: #475569;
+}
+
+/* 响应式设计 */
+@media (max-width: 992px) {
+    .footer-grid-enhanced {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-grid-enhanced {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .footer-bottom-enhanced {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer-legal-enhanced {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+</style>

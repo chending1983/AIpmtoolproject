@@ -1,0 +1,619 @@
+/* Enhanced Page Styles - Jingtuo Alumina Website */
+/* 统一的子页面样式优化 */
+
+/* ============================================
+   1. 全局背景色优化 - 避免纯白视觉疲劳
+   ============================================ */
+
+/* 页面主体背景 */
+.page-wrapper {
+    background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
+    min-height: 100vh;
+}
+
+/* 内容区域背景 */
+.content-section {
+    background: linear-gradient(145deg, #ffffff 0%, #fafbfc 100%);
+}
+
+/* 交替区块背景 */
+.section-alt {
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 50%, #f0f9ff 100%);
+}
+
+/* 深色区块背景 */
+.section-dark {
+    background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+    color: white;
+}
+
+/* ============================================
+   2. Header 组件优化
+   ============================================ */
+
+/* Header 背景优化 - 玻璃拟态效果 */
+.header-enhanced {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(226, 232, 240, 0.6);
+    z-index: 1000;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 滚动后的 Header */
+.header-enhanced.scrolled {
+    background: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.08), 0 1px 3px rgba(0, 0, 0, 0.05);
+    height: 70px;
+}
+
+/* Logo 优化 */
+.logo-enhanced {
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.logo-enhanced:hover {
+    transform: scale(1.02);
+}
+
+.logo-enhanced img {
+    height: 52px;
+    width: auto;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+/* 导航链接优化 */
+.nav-list-enhanced {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-link-enhanced {
+    font-weight: 500;
+    color: #1e293b;
+    padding: 10px 18px;
+    border-radius: 10px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-link-enhanced::after {
+    content: '';
+    position: absolute;
+    bottom: 4px;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #2d5a87, #3d7ab5);
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+    border-radius: 2px;
+}
+
+.nav-link-enhanced:hover {
+    color: #2d5a87;
+    background: rgba(45, 90, 135, 0.08);
+}
+
+.nav-link-enhanced:hover::after {
+    width: 60%;
+}
+
+.nav-link-enhanced.active {
+    color: #2d5a87;
+    background: rgba(45, 90, 135, 0.12);
+}
+
+.nav-link-enhanced.active::after {
+    width: 60%;
+}
+
+/* 下拉菜单优化 */
+.dropdown-enhanced {
+    position: relative;
+}
+
+.dropdown-menu-enhanced {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%) translateY(-10px);
+    min-width: 240px;
+    background: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(226, 232, 240, 0.8);
+    border-radius: 16px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12), 0 8px 20px rgba(0, 0, 0, 0.08);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 1001;
+    padding: 12px;
+    overflow: hidden;
+}
+
+.dropdown-enhanced:hover .dropdown-menu-enhanced {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+}
+
+.dropdown-menu-enhanced::before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 12px;
+    height: 12px;
+    background: white;
+    border-left: 1px solid rgba(226, 232, 240, 0.8);
+    border-top: 1px solid rgba(226, 232, 240, 0.8);
+    transform: translateX(-50%) rotate(45deg);
+}
+
+.dropdown-menu-enhanced li {
+    list-style: none;
+}
+
+.dropdown-menu-enhanced a {
+    display: block;
+    padding: 12px 16px;
+    color: #1e293b;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.dropdown-menu-enhanced a:hover {
+    background: linear-gradient(135deg, rgba(45, 90, 135, 0.1), rgba(61, 122, 181, 0.1));
+    color: #2d5a87;
+    transform: translateX(4px);
+}
+
+/* 语言切换器优化 */
+.lang-switcher-enhanced {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(241, 245, 249, 0.8);
+    padding: 6px;
+    border-radius: 30px;
+    border: 1px solid rgba(226, 232, 240, 0.6);
+}
+
+.lang-btn-enhanced {
+    padding: 6px 14px;
+    border: none;
+    background: transparent;
+    color: #64748b;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.lang-btn-enhanced:hover {
+    color: #2d5a87;
+}
+
+.lang-btn-enhanced.active {
+    background: linear-gradient(135deg, #2d5a87, #3d7ab5);
+    color: white;
+    box-shadow: 0 2px 8px rgba(45, 90, 135, 0.3);
+}
+
+/* ============================================
+   3. 页面头部区域优化
+   ============================================ */
+
+.page-header-enhanced {
+    background: linear-gradient(135deg, #1e3a5f 0%, #2d5a87 50%, #3d7ab5 100%);
+    color: white;
+    padding: 140px 0 80px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.page-header-enhanced::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+        radial-gradient(circle at 20% 50%, rgba(255,255,255,0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 50%, rgba(255,255,255,0.08) 0%, transparent 50%),
+        radial-gradient(circle at 50% 100%, rgba(255,255,255,0.05) 0%, transparent 50%);
+    pointer-events: none;
+}
+
+.page-header-enhanced .header-badge {
+    display: inline-block;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 24px;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+.page-header-enhanced h1 {
+    font-size: 52px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 20px rgba(0,0,0,0.2);
+    letter-spacing: -1px;
+    position: relative;
+    z-index: 1;
+}
+
+.page-header-enhanced p {
+    font-size: 20px;
+    opacity: 0.95;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-weight: 300;
+    position: relative;
+    z-index: 1;
+}
+
+/* ============================================
+   4. 按钮交互效果优化
+   ============================================ */
+
+/* 主要按钮 */
+.btn-primary-enhanced {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #2d5a87, #3d7ab5);
+    color: white;
+    padding: 14px 32px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(45, 90, 135, 0.3);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.btn-primary-enhanced::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.5s ease;
+}
+
+.btn-primary-enhanced:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(45, 90, 135, 0.4);
+}
+
+.btn-primary-enhanced:hover::before {
+    left: 100%;
+}
+
+.btn-primary-enhanced:active {
+    transform: translateY(-1px);
+}
+
+/* 次要按钮 */
+.btn-secondary-enhanced {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    color: #2d5a87;
+    padding: 14px 32px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    border: 2px solid #2d5a87;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-secondary-enhanced:hover {
+    background: #2d5a87;
+    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(45, 90, 135, 0.25);
+}
+
+/* 幽灵按钮 */
+.btn-ghost-enhanced {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    color: #2d5a87;
+    padding: 14px 32px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    border: 2px solid rgba(45, 90, 135, 0.3);
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-ghost-enhanced:hover {
+    background: rgba(45, 90, 135, 0.1);
+    border-color: #2d5a87;
+    transform: translateY(-3px);
+}
+
+/* ============================================
+   5. 卡片组件优化
+   ============================================ */
+
+.card-enhanced {
+    background: linear-gradient(145deg, #ffffff 0%, #fafbfc 100%);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.04);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid rgba(226, 232, 240, 0.6);
+    position: relative;
+}
+
+.card-enhanced:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(45, 90, 135, 0.1);
+    border-color: rgba(45, 90, 135, 0.2);
+}
+
+.card-enhanced .card-image {
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-enhanced .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-enhanced:hover .card-image img {
+    transform: scale(1.08);
+}
+
+.card-enhanced .card-content {
+    padding: 28px;
+}
+
+.card-enhanced .card-title {
+    font-size: 22px;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 12px;
+    letter-spacing: -0.3px;
+}
+
+.card-enhanced .card-text {
+    color: #64748b;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+/* ============================================
+   6. 表单元素优化
+   ============================================ */
+
+.form-input-enhanced {
+    width: 100%;
+    padding: 14px 18px;
+    font-size: 15px;
+    color: #1e293b;
+    background: white;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+.form-input-enhanced:hover {
+    border-color: #cbd5e1;
+}
+
+.form-input-enhanced:focus {
+    border-color: #2d5a87;
+    box-shadow: 0 0 0 4px rgba(45, 90, 135, 0.1);
+}
+
+.form-input-enhanced::placeholder {
+    color: #94a3b8;
+}
+
+.form-label-enhanced {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 8px;
+}
+
+.form-group-enhanced {
+    margin-bottom: 24px;
+}
+
+/* ============================================
+   7. 标签和徽章优化
+   ============================================ */
+
+.tag-enhanced {
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.tag-blue {
+    background: linear-gradient(135deg, #e0f2fe, #dbeafe);
+    color: #1e40af;
+    border: 1px solid rgba(30, 64, 175, 0.1);
+}
+
+.tag-green {
+    background: linear-gradient(135deg, #dcfce7, #bbf7d0);
+    color: #166534;
+    border: 1px solid rgba(22, 101, 52, 0.1);
+}
+
+.tag-purple {
+    background: linear-gradient(135deg, #ede9fe, #ddd6fe);
+    color: #5b21b6;
+    border: 1px solid rgba(91, 33, 182, 0.1);
+}
+
+.tag-amber {
+    background: linear-gradient(135deg, #fef3c7, #fde68a);
+    color: #92400e;
+    border: 1px solid rgba(146, 64, 14, 0.1);
+}
+
+.tag-pink {
+    background: linear-gradient(135deg, #fce7f3, #fbcfe8);
+    color: #be185d;
+    border: 1px solid rgba(190, 24, 93, 0.1);
+}
+
+/* ============================================
+   8. 滚动动画效果
+   ============================================ */
+
+/* 淡入上移动画 */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in-up {
+    animation: fadeInUp 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+/* 延迟动画类 */
+.delay-100 { animation-delay: 0.1s; }
+.delay-200 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; }
+.delay-400 { animation-delay: 0.4s; }
+.delay-500 { animation-delay: 0.5s; }
+
+/* 滚动显示动画 */
+.scroll-reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.scroll-reveal.revealed {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ============================================
+   9. 响应式优化
+   ============================================ */
+
+@media (max-width: 768px) {
+    .header-enhanced {
+        height: 70px;
+    }
+    
+    .header-enhanced.scrolled {
+        height: 60px;
+    }
+    
+    .page-header-enhanced {
+        padding: 100px 0 60px;
+    }
+    
+    .page-header-enhanced h1 {
+        font-size: 36px;
+    }
+    
+    .page-header-enhanced p {
+        font-size: 16px;
+    }
+    
+    .nav-list-enhanced {
+        display: none;
+    }
+    
+    .mobile-menu-toggle {
+        display: flex;
+    }
+}
+
+/* ============================================
+   10. 辅助样式
+   ============================================ */
+
+/* 渐变文字 */
+.gradient-text {
+    background: linear-gradient(135deg, #2d5a87, #3d7ab5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* 玻璃拟态效果 */
+.glass-effect {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* 阴影效果 */
+.shadow-soft {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.shadow-medium {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08), 0 4px 6px rgba(0, 0, 0, 0.04);
+}
+
+.shadow-strong {
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12), 0 8px 20px rgba(0, 0, 0, 0.08);
+}
