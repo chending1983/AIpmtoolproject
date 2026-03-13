@@ -43,3 +43,15 @@ temp/
 
 # OS generated files
 Thumbs.db
+
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.tar
+
+# Large media files
+*.psd
+*.ai
+*.sketch
