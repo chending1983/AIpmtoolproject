@@ -35,6 +35,7 @@ logs/
 .parcel-cache/
 .next/
 .nuxt/
+.vite/
 
 # Temporary files
 tmp/

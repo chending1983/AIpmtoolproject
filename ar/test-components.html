@@ -1,0 +1,62 @@
+<!DOCTYPE html><html lang="ar"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>组件测试</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/enhanced-pages.css">
+    <script src="js/component-loader.js"></script>
+</head><body>\n    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Shandong Jingtuo New Materials Technology Co., Ltd.",
+      "url": "https://www.jingtuomaterials.com/",
+      "logo": "https://www.jingtuomaterials.com/images/logo.svg",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+86-123-4567-8900",
+        "contactType": "customer service",
+        "email": "info@jingtuomaterials.com",
+        "availableLanguage": ["English", "Chinese"]
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Shandong Jingtuo New Materials Technology Co., Ltd.",
+      "url": "https://www.jingtuomaterials.com/"
+    }
+    </script>\n
+
+    <!-- Header Component Container -->
+    <div id="header-container" data-component="header" data-active-nav="home" data-lang="zh"></div>
+    
+    <main style="padding: 100px 20px; min-height: 500px;">
+        <div class="container">
+            <h1>组件测试页面</h1>
+            <p>如果Header和Footer正常显示，说明组件系统工作正常。</p>
+        </div>
+    </main>
+    
+    <!-- Footer Component Container -->
+    <div id="footer-container" data-component="footer" data-show-social="true"></div>
+    
+    <script>
+        // 监听组件加载事件
+        document.addEventListener('componentLoader:componentLoaded', (e) => {
+            console.log('组件加载完成:', e.detail);
+        });
+        
+        document.addEventListener('componentLoader:componentsLoaded', (e) => {
+            console.log('所有组件加载完成:', e.detail);
+            alert('所有组件加载完成！数量: ' + e.detail.count);
+        });
+    </script>
+
+
+</body></html>
